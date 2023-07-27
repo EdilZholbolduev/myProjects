@@ -41,6 +41,7 @@ body
             border: none
             border-radius: 5px
             font-size: 16px
+            outline: 0
          .select-btn:hover
             background-color: white
             color:#75C2F6
@@ -48,5 +49,58 @@ body
          .select-btn:active
             background-color: #75C2F6
             color: white 
-            transition: 0.3s
+            transition: 0.2s
+      .bottom__inner
+         .bottom__inner-text
+            display: flex
+            justify-content: space-between
+            width: 100%
+            border: 2px solid #4682A9
+            margin: 0 0 6px 0 
+            padding: 5px
+            .inner-text__buttons
+               display: flex
+               gap: 10px
+               height: 100%
+               .inner__buttons-delete
+                  color: white
+                  background-color: red 
+                  width: 70px
+                  height: 25px
+                  cursor: pointer
+                  border-radius: 5px 
+                  border: none
+                  outline: 0
+               .inner__buttons-delete:hover
+                  background-color: white
+                  color: red 
+                  transition: 0.3s
+               .inner__buttons-delete:active
+                  background-color: red
+                  color: white 
+                  transition: 0.2s
+               .inner__buttons-edit
+                  color: white
+                  background-color: green 
+                  width: 70px
+                  height: 25px
+                  cursor: pointer
+                  border-radius: 5px 
+                  border: none
+                  outline: 0
+               .inner__buttons-edit:hover
+                  background-color: white
+                  color: green
+                  transition: 0.3s
+               .inner__buttons-edit:active
+                  background-color: green
+                  color: white
+                  transition: 0.2s
+            
+            .textTodo
+               cursor: pointer
+               font-size: 16px
+            .crossOut
+               text-decoration: line-through
+
 
