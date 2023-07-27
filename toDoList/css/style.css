@@ -46,6 +46,7 @@ body .container .top__inner .input {
   outline: 0;
   border: 2px solid #4682A9;
   border-radius: 5px;
+  font-size: 16px;
 }
 body .container .top__inner .select-btn {
   width: 100px;
@@ -54,16 +55,17 @@ body .container .top__inner .select-btn {
   background-color: #75C2F6;
   border: none;
   border-radius: 5px;
+  font-size: 16px;
 }
 body .container .top__inner .select-btn:hover {
   background-color: white;
   color: #75C2F6;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 body .container .top__inner .select-btn:active {
   background-color: #75C2F6;
   color: white;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
