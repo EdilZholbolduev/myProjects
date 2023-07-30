@@ -1,0 +1,88 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+body {
+  height: 1000px;
+  background-color: #FFCCCC;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin-top: 60px;
+  padding: 0 30px 0 30px;
+}
+.container .container__inner-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+.container .container__inner-top .container__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFEECC;
+  width: 650px;
+  height: 80px;
+  border-radius: 10px;
+}
+.container .container__inner-top .container__inner button {
+  width: 95px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #cece5a;
+  border: 1px solid #CECE5A;
+  border-radius: 6px;
+  color: #F6F4EB;
+}
+.container .container__inner-top .container__inner button:hover {
+  background-color: #F6F4EB;
+  color: #CECE5A;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.container .container__inner-top .container__inner button:active {
+  background-color: #CECE5A;
+  color: #F6F4EB;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.container .container__inner-top .container__inner p {
+  font-size: 14.7px;
+}
+.container .container__inner-bottom {
+  margin: 0 auto;
+}
+.container .container__inner-bottom .inner__answer1 {
+  margin-top: 230px;
+}
+.container .container__inner-bottom .inner__answer1 .answer__block {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 17px;
+}
