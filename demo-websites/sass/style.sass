@@ -1,0 +1,145 @@
+*
+   box-sizing: border-box
+   margin: 0
+   padding: 0
+   font-family: monospace
+body
+   background-color: #F2EE9D
+   // container
+   .container
+      height: 100vh
+      display: flex
+      flex-direction: column
+      .container__inner-header
+         display: flex
+         justify-content: space-between
+         padding: 20px 15px 
+         margin-bottom: 130px
+         background-color: #862B0D
+         .header-left
+            display: flex
+            .logo
+               width: 60px
+               height: 60px
+               margin-left: 10px
+               cursor: pointer
+         .header-center
+            display: flex
+            align-items: center
+            .about 
+               display: flex
+               list-style: none
+               gap: 35px
+               color: #fff
+               font-size: 18px
+               font-weight: 700
+               font-family: 'roboto'
+               li
+                  cursor: pointer
+               li:hover
+                  color: #FFC95F
+         .header-right
+            display: flex
+            align-items: center
+            gap: 10px
+            .registration-btn
+               background-color: #FD8D14
+               border-radius: 6px
+               color: #fff
+               cursor: pointer
+               height: 35px
+               padding: 0 20px
+               width: 89px
+               border: 0
+               transition: box-shadow .2s
+               font-size: 12.5px
+               font-family: 'roboto'
+               font-weight: 500
+            .registration-btn:hover
+               color: #fd8d14
+               background-color: #fff
+            .registration-btn:active
+               color: #fff
+               background-color: #fd8d14
+      // middle-content
+      .container__inner-middle
+         display: flex
+         margin-bottom: 130px
+         .middle
+            display: flex
+            margin: 0 auto
+            gap: 50px
+            .middle__description 
+               padding: 25px 15px
+               width: 600px
+               display: flex
+               flex-direction: column
+               gap: 20px
+               .anime-name 
+                  font-size: 20px
+                  color: #8C3333
+               .character-name
+                  color: #557A46 
+                  font-size: 50px
+               .about-character
+                  font-size: 19px
+                  color: #7D7463
+               span
+                  display: flex
+                  gap: 50px
+                  margin-top: 10px
+                  button
+                     font-family: 'Roboto'
+                     font-weight: 500
+                     background-color: #7A9D54
+                     border-radius: 6px
+                     color: #FFFFFF
+                     cursor: pointer
+                     height: 40px
+                     padding: 0 20px
+                     width: 120px
+                     border: 0
+                     transition: box-shadow .2s
+                     font-size: 14px
+                  button:hover
+                     background-color: #fff
+                     color: #7a9d54
+                     transition: 0.3s
+                  button:active
+                     background-color: #7a9d54
+                     color: white
+                     transition: 0.1s
+            .middle__image
+               .character-image
+                  width: 290px
+      // footer
+      .container__inner-footer
+         background-color: #862B0D
+         display: flex
+         justify-content: center 
+         padding: 30px
+         margin-top: auto
+         .footer__social-medias
+            display: flex
+            ul
+               display: flex
+               list-style: none
+               gap: 150px
+               li
+                  cursor: pointer
+                  .link
+                     color: white
+                     font-size: 16px
+                     margin-right: 10px 
+                     text-decoration: none
+                     font-weight: 700
+                  .link:hover
+                     color: #FFC95F
+                     
+  
+
+
+
+
+                  
+
